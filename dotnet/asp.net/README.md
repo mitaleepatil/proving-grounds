@@ -20,3 +20,12 @@ The error you will get at runtime gives you a hint at one of them.
 Be prepared to discuss the reasoning behind your approach and choices.
 Also, discuss any issues and weakness that remain and how they could be addressed.
 We're also interested in how you have or would have tested and benchmarked this solution to tease out problems, particularly those that pertain to scalability and performance.
+
+## To run locally
+
+```shell
+dotnet run
+
+wget http://localhost:8080/download/10/test.zip
+```
+
