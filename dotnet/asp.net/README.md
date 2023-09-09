@@ -27,5 +27,7 @@ We're also interested in how you have or would have tested and benchmarked this 
 dotnet run
 
 wget http://localhost:8080/download/10/test.zip
+
+wget --limit-rate=1M http://localhost:8080/download/10/test.zip
 ```
 
