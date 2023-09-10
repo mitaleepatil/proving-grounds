@@ -22,8 +22,8 @@ public static class Zip
                     await entryStream.WriteAsync(buffer);
                 }
                 Console.WriteLine($"added zip entry {i}");
-                // added sleep to test request cancellation
-                Thread.Sleep(1000);
+                // added delay to test request cancellation
+                await Task.Delay(1000);
             }
         }
     }
